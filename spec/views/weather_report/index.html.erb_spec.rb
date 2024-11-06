@@ -16,7 +16,8 @@ RSpec.describe "weather_report/index", type: :view do
 
     it "displays results if there is an address given" do
       address = "Cupertino, CA"
-      allow(view).to receive(:params).and_return({ address: address })
+      stub_cupertino_geocode
+      assign(:weather_report, WeatherReport.new(address: address))
 
       render
 

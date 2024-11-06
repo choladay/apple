@@ -1,5 +1,7 @@
-<% if params[:address].present? %>
-    <h1>Weather Report for <%= params[:address] %></h1>
+<% if @weather_report.present? %>
+    <h1>Weather Report for <%= @weather_report.address %></h1>
+    Zip Code: <%= @weather_report.zip_code %>
+    <br />
     Current:
     <br />
     High:

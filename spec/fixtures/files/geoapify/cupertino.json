@@ -1,0 +1,60 @@
+{
+    "type": "Feature",
+    "properties":
+       {
+        "datasource":
+         {
+            "sourcename": "openstreetmap",
+            "attribution": "© OpenStreetMap contributors",
+            "license": "Open Database License",
+            "url": "https://www.openstreetmap.org/copyright"
+        },
+        "country": "United States",
+        "country_code": "us",
+        "state": "California",
+        "county": "Santa Clara County",
+        "city": "Cupertino",
+        "postcode": "95014",
+        "lon": -122.0322895,
+        "lat": 37.3228934,
+        "state_code": "CA",
+        "result_type": "postcode",
+        "formatted": "Cupertino, CA 95014, United States of America",
+        "address_line1": "Cupertino, CA 95014",
+        "address_line2": "United States of America",
+        "category": "administrative",
+        "timezone":
+         {
+            "name": "America/Los_Angeles",
+            "offset_STD": "-08:00",
+            "offset_STD_seconds": -28800,
+            "offset_DST": "-07:00",
+            "offset_DST_seconds": -25200,
+            "abbreviation_STD": "PST",
+            "abbreviation_DST": "PDT"
+        },
+        "plus_code": "849V8XF9+53",
+        "plus_code_short": "+53 Cupertino, Santa Clara County, United States",
+        "rank": {
+            "importance": 0.6931220576435181,
+            "popularity": 5.389931212926794,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "match_type": "full_match"
+        },
+        "place_id": "5145a0fa0711825ec059108c289254a94240f00101f9018de6210000000000c0020792030839353031342b7573"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -122.0322895,
+            37.3228934
+        ]
+    },
+    "bbox": [
+        -122.0910851,
+        37.2785379,
+        -121.9958249,
+        37.3403498
+    ]
+}

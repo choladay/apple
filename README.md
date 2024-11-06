@@ -19,6 +19,7 @@ Here are things I am explicitly not going to implement.  In a real business envi
 - Responsive Web Design
 - Anti-abuse
 - Cache-busting
+- API Key storage protection
 
 # Setup (OSX)
 
