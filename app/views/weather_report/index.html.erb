@@ -1,0 +1,15 @@
+<% if params[:address].present? %>
+    <h1>Weather Report for <%= params[:address] %></h1>
+    Current:
+    <br />
+    High:
+    <br />
+    Low:
+<% end %>
+
+<h1>Search For Weather Report</h1>
+
+<%= form_for(root_path, method: :get) do |f| %>
+    <%= text_field_tag(:address, params[:address]) %>
+    <%= submit_tag "Get Weather" %>
+<% end %>
