@@ -2,11 +2,11 @@
     <h1>Weather Report for <%= @weather_report.address %></h1>
     Zip Code: <%= @weather_report.zip_code %>
     <br />
-    Current:
+    Current: <%= @weather_report.temp_current %>°F
     <br />
-    High:
+    High: <%= @weather_report.temp_max %>°F
     <br />
-    Low:
+    Low: <%= @weather_report.temp_min %>°F
 <% end %>
 
 <h1>Search For Weather Report</h1>

@@ -20,6 +20,7 @@ Here are things I am explicitly not going to implement.  In a real business envi
 - Anti-abuse
 - Cache-busting
 - API Key storage protection
+- Non-US address handling
 
 # Setup (OSX)
 
