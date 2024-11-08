@@ -7,6 +7,8 @@
     High: <%= @weather_report.temp_max %>°F
     <br />
     Low: <%= @weather_report.temp_min %>°F
+    <br />
+    Cache Hit?: <%= @cache_hit.to_s %>
 <% end %>
 
 <h1>Search For Weather Report</h1>

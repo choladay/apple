@@ -32,6 +32,12 @@ Bundle install
 bundle install
 ```
 
+Turn on caching in development
+
+```
+bundle exec rails dev:cache
+```
+
 Start the server
 
 ```
@@ -49,7 +55,3 @@ Run tests
 ```
 bundle exec rspec
 ```
-
-# Result
-
-TBD
