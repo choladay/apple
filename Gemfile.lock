@@ -104,6 +104,7 @@ GEM
       reline (>= 0.3.8)
     diff-lcs (1.5.1)
     domain_name (0.6.20240107)
+    dotenv (3.1.4)
     drb (2.2.1)
     erubi (1.13.0)
     ffi (1.17.0-aarch64-linux-gnu)
@@ -331,6 +332,7 @@ DEPENDENCIES
   brakeman
   capybara
   debug
+  dotenv
   geocoder
   http
   importmap-rails

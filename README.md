@@ -38,6 +38,8 @@ Turn on caching in development
 bundle exec rails dev:cache
 ```
 
+Add API keys to `.env`
+
 Start the server
 
 ```

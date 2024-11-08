@@ -2,7 +2,7 @@ Geocoder.configure(
   # Geocoding options
   timeout: 10,                 # geocoding service timeout (secs)
   lookup: :geoapify,         # name of geocoding service (symbol)
-  api_key: "",               # API key for geocoding service
+  api_key: ENV["GEOAPIFY_API_KEY"], # API key for geocoding service
   # ip_lookup: :ipinfo_io,      # name of IP address geocoding service (symbol)
   # language: :en,              # ISO-639 language code
   # use_https: false,           # use HTTPS for lookup requests? (if supported)

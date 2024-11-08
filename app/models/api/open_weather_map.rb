@@ -1,7 +1,7 @@
 class Api::OpenWeatherMap
   require "http"
 
-  API_KEY = "".freeze
+  API_KEY = ENV["OPEN_WEATHER_MAP_API_KEY"].freeze
   API_URL = "https://api.openweathermap.org/data/2.5/weather".freeze
 
   class << self
